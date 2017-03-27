@@ -18,6 +18,6 @@ def random_char():
 # This is the same number of stars as 2000000000000000000000000 universes.
 def random_access_token():
     access_token = ''
-    for _ in range(32):
+    for _ in range(64):
         access_token += random_char()
     return access_token
